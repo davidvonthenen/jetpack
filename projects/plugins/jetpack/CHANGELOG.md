@@ -2,6 +2,27 @@
 
 ### This is a list detailing changes for all Jetpack releases.
 
+## 14.0-a.9 - 2024-10-28
+### Enhancements
+- Subscriptions: Add a floating subscribe button. [#37722]
+
+### Improved Compatibility
+- General: Indicate compatibility with WordPress 6.7. [#39786]
+
+### Other changes <!-- Non-user-facing changes go here. This section will not be copied to readme.txt. -->
+- AI Assistant: Write Brief should not flag words like '2nd' and '100th' as spelling errors. [#39880]
+- Blocks: Initialize connection assets in Story block. [#39870]
+- Contact Info: Change block registration code. [#39892]
+- General: Updated package dependencies. [#39910]
+- Hooks: Change several action priorities to ensure translation loading is not triggered too early. [#39841]
+- Jetpack AI: Add instructions on to-test file. [#39866]
+- Jetpack AI: Remove reload handler for logo generator modal call. [#39848]
+- Jetpack AI: Use new exported component for AI generation modal on GP image generation. [#39864]
+- REST API: Fix upload media endpoint fatals coming from uploads with invalid media type. [#39858]
+- Stats: Optimize the Stats Admin Bar hook by narrowing down the callback. [#39857]
+- Subscriptions: Add source attribute for stats to the floating subscribe button. [#39860]
+- Verbum Comments: Update resize logic. [#39791]
+
 ## 14.0-a.7 - 2024-10-21
 ### Enhancements
 - Newsletters: Add an email preview option to the preview menu. [#39782]
