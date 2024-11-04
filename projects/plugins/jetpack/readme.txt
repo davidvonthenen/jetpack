@@ -326,12 +326,16 @@ Jetpack Backup can do a full website migration to a new host, migrate theme file
 
 
 == Changelog ==
-### 14.0-a.11 - 2024-10-29
+### 14.0-beta - 2024-11-04
 #### Improved compatibility
-- Post Editor: Prevent deprecation notices with WordPress 6.7.
+- Embed Blocks: Append 'Embed' to the titles of Facebook and Instagram embed blocks.
+- Image Block: Make the external media picker button consistent with the other buttons in the image block.
 
 #### Bug fixes
-- Carousel: Further improve accessibility by being more selective over which images to apply attributes to.
+- Google Fonts: Fix module not loading fully in certain scenarios.
+- Social: Fix the Instagram maximum video length.
+- Social: Prevent share status styles from affecting other independent elements on the page.
+- Subscribe Block: Fix styling for the number of subscribers in the post editor sidebar.
 
 --------
 
